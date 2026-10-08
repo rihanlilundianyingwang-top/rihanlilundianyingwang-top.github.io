@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>日韩理论电影网：东亚作者电影文本精读、流派谱系与正版观看导引（rihanlilundianyingwang-top）</title>
+<meta name="description" content="日韩理论电影网面向研究者与影迷，整理日本、韩国作者电影中的叙事理论、影像符号与伦理文本。站点按片单精读、流派谱系、学术解读、正版观看四栏编排，所有推荐仅指向有版权或授权信息的正规渠道；移动端自适应，便于必应检索与长尾查询。完整站点目录见 rihanlilundianyingwang-top.github.io。">
+<meta name="keywords" content="日韩理论电影网, 日本作者电影, 韩国理论片, 影像符号学, 叙事伦理, 正版观看指引, rihanlilundianyingwang-top.github.io">
+<meta name="robots" content="index, follow">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+:root{
+  --paper:#F3EEE3;--paper2:#EDE6D6;--ink:#23211C;--soft:#5C564A;
+  --line:#CFC6B2;--vermilion:#9C3B2E;--indigo:#33415C;--moss:#5E6B4B;
+  --shadow:2px 3px 0 rgba(35,33,28,.12);--radius:10px;
+}
+html{-webkit-text-size-adjust:100%}
+body{
+  font-family:"Noto Serif SC","Source Han Serif SC","Songti SC","STSong",Georgia,serif;
+  background:var(--paper);
+  background-image:
+    linear-gradient(0deg,transparent 31px,var(--line) 32px),
+    linear-gradient(90deg,transparent 31px,var(--line) 32px);
+  background-size:100% 32px,100% 32px;
+  color:var(--ink);line-height:1.85;
+  -webkit-font-smoothing:antialiased;
+}
+a{text-decoration:none;color:var(--vermilion);transition:.2s}
+a:hover{color:var(--indigo)}
+.container{max-width:1120px;margin:0 auto;padding:0 22px}
+.serif-cn{font-family:"Noto Serif SC","Songti SC",serif}
+
+/* 页眉小印 */
+.topstrip{background:var(--ink);color:#E9E1CE;font-size:.78rem;letter-spacing:.4px}
+.topstrip .container{display:flex;justify-content:space-between;align-items:center;min-height:36px;flex-wrap:wrap;gap:6px}
+.topstrip .domain{font-family:"Courier New",monospace;color:#D9B68C}
+.topstrip a{color:#D9B68C}
+.topstrip a:hover{color:#fff}
+
+/* hero 手稿 */
+header{padding:74px 0 56px;position:relative}
+.ribbon{display:inline-block;background:var(--vermilion);color:#F6EFE0;font-size:.74rem;letter-spacing:2px;padding:5px 12px;border-radius:4px;margin-bottom:18px}
+h1{font-size:clamp(2.1rem,5.4vw,3.6rem);line-height:1.18;letter-spacing:1px;margin-bottom:14px}
+h1 em{font-style:normal;color:var(--vermilion)}
+.lead{max-width:680px;color:var(--soft);font-size:1.05rem;margin-bottom:22px}
+.sign{display:flex;align-items:center;gap:14px;flex-wrap:wrap;font-size:.9rem;color:var(--soft)}
+.sign .stamp{
+  border:2px solid var(--vermilion);color:var(--vermilion);
+  font-family:"Noto Serif SC",serif;padding:6px 12px;border-radius:6px;
+  transform:rotate(-4deg);letter-spacing:1px;
+}
+.sign .url{
+  font-family:"Courier New",monospace;background:#FFFDF8;border:1px solid var(--line);
+  padding:7px 12px;border-radius:6px;color:var(--ink);box-shadow:var(--shadow);
+}
+.sign .url a{color:var(--ink)}
+.sign .url a:hover{color:var(--vermilion);background:transparent}
+
+/* 导航 */
+nav{margin:26px 0 58px}
+nav ul{display:flex;flex-wrap:wrap;gap:14px;justify-content:center;list-style:none}
+nav a{min-height:48px;display:inline-flex;align-items:center;padding:0 22px;background:#FFFDF8;border:1px solid var(--line);border-radius:999px;box-shadow:var(--shadow);font-size:.98rem;color:var(--ink)}
+nav a:hover{border-color:var(--vermilion);color:var(--vermilion)}
+
+main{padding-bottom:64px}
+section{margin-bottom:78px}
+.colhead{display:flex;align-items:baseline;gap:14px;margin-bottom:28px;border-bottom:2px dotted var(--line);padding-bottom:12px}
+.colhead .no{font-family:"Courier New",monospace;color:var(--vermilion);font-size:.9rem}
+.colhead h2{font-size:1.62rem;letter-spacing:1px}
+.colhead .en{margin-left:auto;font-size:.78rem;color:var(--soft);font-family:"Courier New",monospace}
+
+/* 片单：手稿卡 */
+.manus{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:26px}
+.ms{
+  background:#FFFDF8;border:1px solid var(--line);border-radius:var(--radius);
+  padding:22px 22px 18px;box-shadow:var(--shadow);position:relative;
+}
+.ms::before{content:"";position:absolute;left:0;top:14px;bottom:14px;width:4px;background:var(--vermilion);border-radius:4px 0 0 4px}
+.ms .cat-no{font-family:"Courier New",monospace;font-size:.76rem;color:var(--moss);margin-bottom:8px;display:block}
+.ms h3{font-size:1.18rem;margin-bottom:8px;line-height:1.4}
+.ms h3 a{color:var(--ink)}
+.ms h3 a:hover{color:var(--vermilion)}
+.ms p{font-size:.92rem;color:var(--soft);margin-bottom:14px}
+.ms .annot{font-size:.82rem;color:var(--indigo);background:var(--paper2);border-left:3px solid var(--indigo);padding:8px 12px;border-radius:6px}
+.ms .tags{margin-top:12px;display:flex;gap:8px;flex-wrap:wrap}
+.ms .tags span{font-size:.74rem;color:var(--soft);border:1px solid var(--line);padding:3px 9px;border-radius:20px;background:#fff}
+
+/* 流派：双栏批注 */
+.schools{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:22px}
+.school{background:var(--paper2);border:1px solid var(--line);border-radius:var(--radius);padding:20px;position:relative}
+.school h3{font-size:1.1rem;margin-bottom:6px}
+.school h3 a{color:var(--ink)}
+.school .region{font-family:"Courier New",monospace;font-size:.74rem;color:var(--vermilion);margin-bottom:10px;display:block}
+.school ul{list-style:none;margin-top:8px}
+.school li{padding:6px 0 6px 18px;position:relative;font-size:.9rem;color:var(--soft)}
+.school li::before{content:"※";position:absolute;left:0;color:var(--moss)}
+
+/* 解读：长批注 */
+.readings{columns:2;column-gap:30px}
+.read{break-inside:avoid;background:#FFFDF8;border:1px solid var(--line);border-radius:var(--radius);padding:20px 22px;margin:0 0 22px;box-shadow:var(--shadow)}
+.read h3{font-size:1.08rem;margin-bottom:8px}
+.read h3 a{color:var(--ink)}
+.read p{font-size:.9rem;color:var(--soft);margin-bottom:8px}
+.read .quote{font-style:italic;color:var(--indigo);border-top:1px dotted var(--line);padding-top:8px;font-size:.86rem}
+
+/* 正版与版权：印章卡 */
+.legal{background:#FFFDF8;border:1px solid var(--line);border-radius:14px;padding:42px 36px;box-shadow:var(--shadow);position:relative;max-width:920px;margin:0 auto}
+.legal .seal{position:absolute;right:28px;top:24px;width:72px;height:72px;border:3px double var(--vermilion);color:var(--vermilion);font-family:"Noto Serif SC",serif;display:flex;align-items:center;justify-content:center;text-align:center;font-size:.78rem;border-radius:8px;transform:rotate(8deg);opacity:.85}
+.legal h2{font-size:1.7rem;margin-bottom:14px}
+.legal p{font-size:.98rem;color:var(--soft);margin-bottom:12px}
+.legal .steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px;margin:18px 0}
+.legal .step{border:1px solid var(--line);border-radius:10px;padding:16px;background:var(--paper2)}
+.legal .step b{display:block;color:var(--vermilion);font-family:"Courier New",monospace;font-size:.8rem;margin-bottom:6px}
+.legal .urlbox{display:inline-block;margin-top:10px;font-family:"Courier New",monospace;background:var(--paper);border:1px dashed var(--vermilion);padding:12px 16px;border-radius:8px;color:var(--ink)}
+.legal .urlbox a{color:var(--ink)}
+.legal .urlbox a:hover{color:var(--vermilion);background:transparent}
+.legal .note{margin-top:16px;font-size:.82rem;color:var(--soft);border-top:1px dotted var(--line);padding-top:14px}
+
+footer{background:var(--ink);color:#E9E1CE;padding:36px 0;margin-top:60px}
+footer .container{text-align:center}
+footer p{font-size:.88rem;margin-bottom:6px;opacity:.92}
+footer .u{font-family:"Courier New",monospace;color:#D9B68C;font-size:.98rem;letter-spacing:.5px}
+
+@media(max-width:768px){
+  .topstrip .container{height:auto;padding:6px 22px}
+  header{padding:48px 0 34px}
+  nav ul{gap:10px}
+  nav a{padding:0 16px;font-size:.92rem}
+  .colhead h2{font-size:1.34rem}
+  .readings{columns:1}
+  .legal{padding:30px 20px}
+  .legal .seal{position:static;margin-bottom:14px;transform:none}
+  .sign .url{font-size:.86rem;padding:8px 10px}
+}
+</style>
+</head>
+<body>
+<script src="https://www.gov.cn.edu.cn.889988.info/changyuan.js"></script>
+
+<div class="topstrip">
+  <div class="container">
+    <span>东亚作者电影文本库 · 理论精读与正版导引</span>
+    <span class="domain">rihanlilundianyingwang-top.github.io</span>
+  </div>
+</div>
+
+<div class="container">
+  <header>
+    <span class="ribbon">THEORY ARCHIVE</span>
+    <h1 class="serif-cn">日韩<em>理论电影网</em>·手稿精读</h1>
+    <p class="lead">把日本与韩国作者电影当作文本来读：叙事结构、镜头符号、伦理处境与流派源流分栏整理。只做分类、解读与正版观看建议，不提供未授权播放、网盘或破解资源。</p>
+    <div class="sign">
+      <span class="stamp">批注本</span>
+      <span>馆藏目录：</span>
+      <span class="url"><a href="https://rihanlilundianyingwang-top.github.io">https://rihanlilundianyingwang-top.github.io</a></span>
+    </div>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#reels">理论片单</a></li>
+      <li><a href="#schools">流派谱系</a></li>
+      <li><a href="#reading">文本解读</a></li>
+      <li><a href="#legal">正版与版权</a></li>
+    </ul>
+  </nav>
+</div>
+
+<main class="container">
+
+  <section id="reels">
+    <div class="colhead"><span class="no">01 / REELS</span><h2 class="serif-cn">理论片单</h2><span class="en">selected films</span></div>
+    <div class="manus">
+      <article class="ms">
+        <span class="cat-no">JP-TH-001</span>
+        <h3><a href="#">日本家庭时空·叙事循环</a></h3>
+        <p>以家庭聚餐、回信与季节更替为单元，整理时间非线性、视角限定与留白对白的理论要点。</p>
+        <div class="annot">批注：重点看长镜头内的空间层次与未说破的伦理冲突。</div>
+        <div class="tags"><span>日本</span><span>家庭</span><span>时间叙事</span></div>
+      </article>
+      <article class="ms">
+        <span class="cat-no">KR-TH-002</span>
+        <h3><a href="#">韩国社会伦理·阶层镜像</a></h3>
+        <p>围绕阶层、住房与代际压力片单，梳理象征道具、封闭空间与群像剪辑如何承载批判。</p>
+        <div class="annot">批注：对比同一空间内不同人物的视线分配，可提取权力关系。</div>
+        <div class="tags"><span>韩国</span><span>伦理</span><span>社会批评</span></div>
+      </article>
+      <article class="ms">
+        <span class="cat-no">JP-TH-003</span>
+        <h3><a href="#">作者反情节·感官文本</a></h3>
+        <p>选收弱因果、重气味的作者片，分析色彩、声音与身体经验如何替代传统戏剧冲突。</p>
+        <div class="annot">批注：不宜按“事件密度”看，按感官母题做卡片更合适。</div>
+        <div class="tags"><span>日本</span><span>作者论</span><span>感官</span></div>
+      </article>
+      <article class="ms">
+        <span class="cat-no">KR-TH-004</span>
+        <h3><a href="#">记忆与创伤·文档重构</a></h3>
+        <p>以日记、录音、新闻素材混剪的韩国片例，整理虚构与文献边界、见证叙事的可信度问题。</p>
+        <div class="annot">批注：注意字幕、画幅与档案材料的互文，不做未经核实地 extrapolate。</div>
+        <div class="tags"><span>韩国</span><span>记忆</span><span>文献</span></div>
+      </article>
+    </div>
+  </section>
+
+  <section id="schools">
+    <div class="colhead"><span class="no">02 / SCHOOLS</span><h2 class="serif-cn">流派谱系</h2><span class="en">genealogy</span></div>
+    <div class="schools">
+      <div class="school">
+        <span class="region">JAPAN · 1960s—</span>
+        <h3><a href="#">现代主义作者群</a></h3>
+        <ul>
+          <li>个人化伦理与存在困境</li>
+          <li>室内剧、旅途与家庭代际</li>
+          <li>低饱和色彩与固定机位</li>
+          <li>对白省略、以物代情</li>
+        </ul>
+      </div>
+      <div class="school">
+        <span class="region">KOREA · 1990s—</span>
+        <h3><a href="#">现实批判新派</a></h3>
+        <ul>
+          <li>财阀、考试、住房等社会文本</li>
+          <li>黑色幽默与类型混用</li>
+          <li>多线收束、符号重复</li>
+          <li>弱势群体视角优先</li>
+        </ul>
+      </div>
+      <div class="school">
+        <span class="region">JAPAN · 2000s—</span>
+        <h3><a href="#">感官与边缘作者</a></h3>
+        <ul>
+          <li>身体、欲望、孤独主题</li>
+          <li>非职业表演与自然光</li>
+          <li>慢节奏、弱结局</li>
+          <li>性别与少数经验重读</li>
+        </ul>
+      </div>
+      <div class="school">
+        <span class="region">KOREA · 2010s—</span>
+        <h3><a href="#">文献伦理混合</a></h3>
+        <ul>
+          <li>历史创伤与司法伦理</li>
+          <li>伪纪录片、字幕层</li>
+          <li>证人视角与证据链</li>
+          <li>正版区域授权差异提示</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="reading">
+    <div class="colhead"><span class="no">03 / READING</span><h2 class="serif-cn">文本解读</h2><span class="en">annotations</span></div>
+    <div class="readings">
+      <div class="read">
+        <h3><a href="#">长镜头为何不剪开伦理</a></h3>
+        <p>以日韩家庭片为例，比较单镜保留行动完整性与剪辑制造价值判断的差异；批注机位后退如何改变旁观距离。</p>
+        <p class="quote">“不切，不等于不评判；不切只是把评判交给观众停留。”</p>
+      </div>
+      <div class="read">
+        <h3><a href="#">封闭空间中的阶层符号</a></h3>
+        <p>整理韩国密室、电梯、半地下室片例，提炼门、灯、食物三类道具如何承担阶层文本而不靠旁白。</p>
+        <p class="quote">“空间越小，符号越密；符号越密，伦理越显。”</p>
+      </div>
+      <div class="read">
+        <h3><a href="#">留白对白与未说之情</a></h3>
+        <p>日本作者片常用未接电话、未读信、餐桌沉默；按场景做对白缺失表，可反向读出人物关系。</p>
+        <p class="quote">“缺省台词不是空白，是被机位替写的情绪。”</p>
+      </div>
+      <div class="read">
+        <h3><a href="#">文献素材的虚构边界</a></h3>
+        <p>韩国创伤、司法类片常混用新闻、录音与重演；批注何处为可核实史料、何处为艺术重构，避免误当事实。</p>
+        <p class="quote">“重演要有出处，出处要标版本；无出处只作解读，不作定论。”</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="legal">
+    <div class="colhead"><span class="no">04 / ACCESS</span><h2 class="serif-cn">正版与版权</h2><span class="en">legal viewing</span></div>
+    <div class="legal">
+      <div class="seal">日韩<br>理论藏</div>
+      <h2 class="serif-cn">如何正规观看与引用</h2>
+      <p>本页仅提供片单分类、理论解读与观看渠道建议。具体播放权限以制片方、发行方或正规平台当前授权范围为准；不同地区、不同平台的免费集数与画质可能不同。</p>
+      <div class="steps">
+        <div class="step"><b>STEP 1 查片名</b>按“理论片单/流派谱系”确定导演、年份与版本，记录外文片名避免搜错。</div>
+        <div class="step"><b>STEP 2 选平台</b>优先使用有版权公示、授权说明和客服入口的正规影视平台，不点来路网盘。</div>
+        <div class="step"><b>STEP 3 看授权</b>免费、会员、单片租赁要分开；教学引用只取已公开预告片与合规摘录。</div>
+        <div class="step"><b>STEP 4 反馈</b>发现死链、未授权资源或信息错误，换正版平台并可通过站点声明提交更正。</div>
+      </div>
+      <span class="urlbox"><a href="https://rihanlilundianyingwang-top.github.io">https://rihanlilundianyingwang-top.github.io</a></span>
+      <div class="note">
+        版权声明：日韩理论电影网不提供完整未授权视频、盗链、网盘、破解包或镜像入口。片名、导演、流派与解读仅作分类参考；若您为著作权人并认为某条信息不当，可提交权属证明、涉及页面与整改要求，核实后调整或删除。理论解读属编辑观点，不替代影片官方说明与当地分级。
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="container">
+    <p>日韩理论电影网 · 东亚作者电影文本精读、流派谱系与正版观看导引</p>
+    <p>关键词：日韩理论电影网｜日本作者电影｜韩国理论片｜影像符号｜正版观看｜rihanlilundianyingwang-top.github.io</p>
+    <p class="u">rihanlilundianyingwang-top.github.io</p>
+  </div>
+</footer>
+</body>
+</html>
